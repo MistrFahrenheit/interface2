@@ -1,0 +1,77 @@
+#header{
+    width: 100%;
+    height: 40px;
+    background-color: #acd373;
+}
+
+#logo{
+    margin-left: 30px;
+    margin-top: 8px;
+    width: 70px;
+    height: 23px;
+}
+
+.desktopnav{
+    display: none;
+}
+
+.mobilenav{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #89a85c;
+    width: 40px;
+    height: 40px;
+}
+
+.mobilenav img{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.home{
+    width: 100%;
+    background-color: #9abd67;
+    height: 350px;
+    position: relative;
+}
+
+h1{
+    font: 700 20px 'Source Sans Pro';
+    color: #f7f7f7;
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h2{
+    font: italic 13px DroidSerif;
+    color: #f7f7f7;
+    position: absolute;
+    top: 156px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#arrow-wrapper{
+    width: 100%;
+}
+
+.arrow{
+    position: absolute;
+    left: 50%;
+    margin-left: -12.5px;
+    top: 223px;
+}
+
+#siluet{
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(images/siluet.png);
+}

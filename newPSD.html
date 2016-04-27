@@ -171,7 +171,7 @@
             left: 45px;
         }
         #separator2{
-            top: 91px;
+            top: 105px;
             left: 142px;
             position: absolute;
         }
@@ -371,13 +371,13 @@
             text-align: center;
             font: 400 25px 'Source Sans Pro';
             position: absolute;
-            top: 53px;
-            left: 65px; 
+            top: 10px;
+            left: 75px; 
         }
         #works > p{
             font: 400 15px DroidSerif;
             position: absolute;
-            top: 76px;
+            top: 50px;
             left: 25px;
         }
         #separator3{
@@ -484,7 +484,7 @@
         }
         #ribbon{
             position: absolute;
-            top: 145px;
+            top: 147px;
             left:30px;
         }
         #client{
@@ -529,6 +529,7 @@
             left: 31px;
         }
         #testbutton{
+            background-color: transparent;
             width: 118px;
             height: 28px;
             text-align: center;
@@ -555,8 +556,8 @@
             font: 400 25px 'Source Sans Pro';
             color: #454545;
             position: absolute;
-            top: 55px;
-            left: 160px;
+            top: 25px;
+            left: 150px;
         }
         #blog > h2{
             font: 400 15px DroidSerif;
@@ -763,6 +764,26 @@
             width: 109px;
             height: 23px;
         }
+        #emailfield2::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 14px / 22px DroidSerif;
+}
+
+#emailfield2:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 14px / 22px DroidSerif; 
+}
+
+#emailfield2::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 14px / 22px DroidSerif; 
+}
+
+#emailfield2:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 14px / 22px DroidSerif;
+}
+        
         #mailbox{
             background-color: #f7f7f7;
             width: 30px;
@@ -777,7 +798,7 @@
             top: 5px;
         }
 /*Start Panel 10*/
-        #maps{
+        #map{
             width: 360px;
             height: 129px;
             position: relative;
@@ -785,9 +806,7 @@
         }
         #mapback{
             z-index: -1;
-            position: absolute;
-            left: 0px;
-            top: 218px;
+         
         }
         #overlay{
             width: 360px;
@@ -803,7 +822,6 @@
             position: absolute;
             top: 11px;
             left: 145px;
-            z-index: 1;
         }
         #maptext{
             font: 400 13px 'Source Sans Pro';
@@ -820,19 +838,19 @@
             background-color: #acd373;
         }
         #contitle{
-            font: 400 30px 'Source Sans Pro';
+            font: 400 20px 'Source Sans Pro';
             color: #f7f7f7;
             position: absolute;
-            top: 45;
+            top: 45px;
             left: 142px;
         }
-        separator5{
+        #separator5{
             position: absolute;
-            top: 68px;
-            left:142px;
+            top: 95px;
+            left: 142px;
         }
         #contact > h2{
-            font: 400 26px / 24px 'Source Sans Pro';
+            font: 400 20px 'Source Sans Pro';
             position: absolute;
             left: 30px;
             color: #f7f7f7;
@@ -847,51 +865,116 @@
             top: 245px;
         }
         #namefield{
+            border: 1px;
             width: 301px;
             height: 28px;
             position: absolute;
-            top: 129px;
+            top: 160px;
             left: 30px;
-            background-color: #acd373;
+            background-color: #9abd67;
             font: italic 20px / 24px DroidSerif;
             color: #f7f7f7;
             text-align: left;
         }
+        #namefield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#namefield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#namefield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#namefield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+        
         #emailfield{
+            border: 1px;
             width: 301px;
             height: 28px;
             position: absolute;
-            top: 196px;
+            top: 225px;
             left: 30px;
-            background-color: #acd373;
+            background-color: #9abd67;
             font: italic 20px / 24px DroidSerif;
             color: #f7f7f7;
             text-align: left;
         }
+        #emailfield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#emailfield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#emailfield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#emailfield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+        
         #messagefield{
+            border: 1px;
             width: 302px;
             height: 84px;
             position: absolute;
-            top: 129px;
+            top: 300px;
             left: 30px;
-            background-color: #acd373;
+            background-color: #9abd67;
             font: italic 20px / 24px DroidSerif;
             color: #f7f7f7;
             text-align: left;
             vertical-align: text-top;
         }
+#messagefield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#messagefield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#messagefield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#messagefield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
         #searrow{
             position: absolute;
             top 339px;
             left: 323px;
         }
         #sendbutton{
+            border: 1px;
+            font: italic 22px DroidSerif;
+            color: #f7f7f7;
             background-color: #9abd67;
             width: 220px;
             height: 32px;
             position: absolute;
-            top: 374px;
-            width: 70px;
+            top: 400px;
+            left: 70px;
         }
         
 /*Start Panel 12*/
@@ -1021,7 +1104,7 @@
             <p>Optio corporis fuga mollitia sit magni ut quasi conse- quuntur aut iste aspernatur totam similiue sint. Harum voluptas vero iste. itaque et in sit eveniet acusamus quibusdam cupiditate
             </p>
             </div>
-            <div id="testbutton"><p>Give Testimonials</p></div>
+            <button id="testbutton">Give Testimonials</button>
      </div>
 <!--Panel 8-->
      <div id="blog">
@@ -1080,8 +1163,8 @@
       
 <!--Panel 11-->
     <div id="contact">
-        <h1 id=contitle>CONTACT</h1>
-        <img id="separator5" class="separator" src="separator2.png" height="6" width="74"/>
+        <p id=contitle>CONTACT</p>
+        <img id="separator5" src="separator2.png" height="6" width="74"/>
         <h2 id="cname">Name</h2>
         <input type="text" id="namefield" placeholder="Carlos Shorter"/>
         <h2 id="cemail">E-mail</h2>
@@ -1090,12 +1173,13 @@
         <h2 id="cmessage">Message</h2>
         <input type="text" id="messagefield" placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you." height="84" width="302"/>
         <img id="searrow" src="images/Drag-Icon.png" height="7" width="7">
-        <button class="button" id="sendbutton">Send</button>
+        <button id="sendbutton">Send</button>
+        </div>    
 <!--Panel 12-->
         <div id="footer">
-        <img id="socialmedia" src="images/linkedin21.png" width="251" height="26"/>
-        <img is="copyright" src="images/%C2%A9-Copyright-2014.-Allright-Reserved.png" width="200" height="13"/>
+        <img id="socialmedia" src="images/Social-Media.png" width="251" height="26"/>
+        <img id="copyright" src="images/Copyright.png" width="200" height="13"/>
         </div>
-        </div>
+        
     </body>
 </html>

@@ -56,4 +56,32 @@
         background-image: url(images/siluetdesktop.png);
         height: 216px;
     }
+    .panel1{
+        height: 575px;
+    }
+    #iphone{
+        background-image:url(images/s/iphonedes.png);
+        height: 393px;
+        width: 150px;
+        position: absolute;
+        left: 1122px;
+        right: 328px;
+        top: 91px;
+    }
+    #man449{
+        background-image:url(images/man449des.png)
+        height: 55px;
+        width: 47px;
+        position: absolute;
+        left: 215px;
+        top: 117;
+    } 
+    #panel1txt{
+    font: 400 13px 'Source Sans Pro';
+    position: absolute;
+    left: 215px;
+    top: 214px;
+    width: 768px;
+    height: 164px;
+    }
 }

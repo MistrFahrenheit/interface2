@@ -1,5 +1,4 @@
-@media all and (min-width: 700px){
-    
+@media all and (min-width: 700px){   
 #header{
     height:106px;
 }
@@ -44,5 +43,12 @@
     }
     .arrow img{
         width: 49px;
+    }
+    #siluet{
+        background-image: url(images/siluetdesktop.png);
+        position: absolute;
+        top: 484px;
+        height: 216px;
+        width: 1599px;
     }
 }

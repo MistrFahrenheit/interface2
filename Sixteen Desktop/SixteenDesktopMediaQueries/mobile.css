@@ -75,3 +75,31 @@ h2{
     bottom: 0px;
     background-image: url(images/siluet.png);
 }
+.panel1{
+ width: 100%;
+    background-color: #f7f7f7;
+    height: 500px;
+    position: relative;   
+}
+#iphone{
+    background-image:url(images/iphone.png);
+    height:207px;
+    width:78px;
+    position: absolute;
+    left:141px;
+    top:43px;
+}
+#man449{
+    background: url(images/man449.png);
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    left: 29px;
+    top: 286px;
+}
+#panel1txt{
+    font: 400 13px 'Source Sans Pro';
+    position: absolute;
+    left: 29px;
+    top: 338px;
+}

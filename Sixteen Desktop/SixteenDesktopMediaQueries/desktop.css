@@ -28,26 +28,40 @@
     .mobilenav{
         display: none;
     }
-    
+    /* End of Header*/
     .home{
         height: 700px;
     }
-    
-    h1{
+    .button{
+        font: italic 18px DroidSerif;
+        text-align: center;
+        border-color: #acd373;
+        border-style: solid;
+        border-width: 1px;
+    }
+    #sixteencreative{
         font: 900 48px 'Source Sans Pro';
+        color: #f7f7f7;
+        position: absolute;
         top: 231px;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
     }
-    
-    h2{
-        font: italic 24px DroidSerif;
-        top: 294px;
+    #jakarta{
+    font: italic 24px DroidSerif;
+    color: #f7f7f7;
+    position: absolute;
+    top: 294px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
     }
-    
     .arrow{
         margin-left: -24.5px;
         top: 445px;
     }
-    
+ 
     .arrow img{
         width: 49px;
     }
@@ -68,13 +82,23 @@
         right: 328px;
         top: 91px;
     }
+    
+    #whoweare{
+        font: 400 30px 'Source Sans Pro';
+        position: absolute;
+        left: 285px;
+        top: 137px;
+        color: black;
+        
+        
+    }
     #man449{
         background-image:url(images/man449des.png)
         height: 55px;
         width: 47px;
         position: absolute;
         left: 215px;
-        top: 117;
+        top: 117px;
     } 
     #panel1txt{
     font: 400 13px 'Source Sans Pro';
@@ -84,4 +108,235 @@
     width: 768px;
     height: 164px;
     }
+    #learnmore{
+    position: absolute;
+    left: 215px;
+    top: 424px;
+    background-color: #f7f7f7;
+    color: #acd373;
+    height: 40px;
+    }
+    .video{
+        height: 523px;
+        background: url(images/BackgroundDes.png);
+    }
+
+        } 
+        #playbutton{
+            position: absolute; 
+            top: 194;
+            left: 732px;
+            cursor: pointer;
+        }
+        
+    .services{
+        height: 735px; 
+        background-color: #f7f7f7;
+    }
+    #servicehead{
+    top: 99px;
+    margin: 0px 150px 100px 80px;
+}
+    #ourservices{
+        font: 400 30px 'Source Sans Pro';
+        position: relative;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #servicequote{
+        color: #454545;
+        font: 400 18px DroidSerif;
+        position: relative;
+         white-space: nowrap;
+        
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #blacksep{
+        position: relative;
+        left: 738px;
+        width: 125px;
+        white-space: nowrap;
+            
+    }
+    #whoweare{
+        font: 400 30px 'Source Sans Pro';
+        color: #454545;
+        position: absolute;
+        left:285px;
+        top: 137px;
+        
+    }
+    #servicesFlex{
+       
+}
+    .serviceFlexItem{
+        width: 380px;
+    }
+    
+    .flexDesktop{
+        display: block;
+    }
+    
+    .serviceFlexItem span{
+        font: 700 20px 'Source Sans Pro';
+    }
+    
+    .serviceFlexItem p{
+        font: 400 18px 'Source Sans Pro';
+        line-height: 18px;
+        width: 285px;
+    }
+    #learnmore2{
+        border-color: #acd373;
+        color: #acd373;
+        height: 38px;
+        width: 138px;
+        position: absolute;
+        top: 594px;
+        left: 733px;
+    
+        
+    }
+    .team{
+    height: 735px; 
+    
+    }
+    #teamhead{
+        font: 400 30px 'Source Sans Pro';
+        color: #f7f7f7;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        top: 102px;
+        
+     
+    }
+    #teamquote{
+        font: 400 18px DroidSerif;
+        color: #f7f7f7;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        top: 142px;
+    }
+    #whiteSep{
+        
+    }
+#teamArrows{
+    background: url(images/teamArrowsdes.png);
+    width: 1417px;
+    height: 49px;
+    position: relative;
+    object-position: center;
+    top: 380; 
+}
+#teamFlex{
+   flex-direction: row; 
+}
+.teamFlexItem{
+    width: 270px;
+}
+.teamPhotos{
+    z-index: 1;
+}
+.teamFlexItemBox{
+    background-color: #f7f7f7;
+    width: 270px;
+    height: 247px;
+    border-radius: 5px;
+}
+.teamFlexItemBox > span{
+    font: 700 20px 'Source Sans Pro';
+    color: #acd373;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+}
+.teamFlexItemBox > p{
+    font: italic 16px DroidSerif;;
+    color:#787878;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+.teamFlexItemFooter{
+    background-color: #ebebeb;
+    width: 270px;
+    height: 70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.teamFooter{
+    height: 110px;
+    background-color: #9abd67;
+    text-align: center;
+    vertical-align:middle;
+}
+#teamFooterButton{
+    font: italic 18px DroidSerif;
+    color: #f2f2f2;
+    border-color: #f2f2f2
+}
+
+.works{
+    height: 1170px;
+
+}
+
+#worksFlex1{
+    
+}
+.worksFlex1Item{
+    width: 570px;
+    height: 370px;
+    background-color: #ebebeb;
+}
+.worksBigPic{
+    position: absolute;
+    left:0;
+    top: 1;
+}
+.worksFlex1Item > h1{
+    font: 700 18px 'Source Sans Pro';
+    color: #454545;
+    position: absolute;
+    text-align: center;
+    top: 305px;
+}
+.worksFlex1Item > h2{
+    font: italic 16px DroidSerif;
+    color: #787878;
+    text-align: center;
+    top: 212px;
+}
+#worksF
+
+
+.worksFooter{
+    height: 119px;
+}
+.testimonial{
+    height: 550px;
+    background-image: url(images/backgroundTestDes.png)
+    
+}
+.blog{
+    height: 800px;
+}
+.map{
+    height: 500px;
+    background-image:url(images/backgroundMapDes.png)
+}
+.contact{
+    height:750px;
+    
+}
+.footer{
+    height: 101px;
 }

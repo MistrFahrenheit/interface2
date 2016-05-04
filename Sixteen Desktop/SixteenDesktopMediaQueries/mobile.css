@@ -37,7 +37,7 @@
     position: relative;
 }
 
-h1{
+#sixteenheader{
     font: 700 20px 'Source Sans Pro';
     color: #f7f7f7;
     position: absolute;
@@ -47,7 +47,7 @@ h1{
     white-space: nowrap;
 }
 
-h2{
+#jakarta{
     font: italic 13px DroidSerif;
     color: #f7f7f7;
     position: absolute;
@@ -90,7 +90,7 @@ h2{
     top:43px;
 }
 #man449{
-    background: url(images/man449.png);
+    background: url(images/man449des.png);
     height: 30px;
     width: 25px;
     position: absolute;
@@ -102,4 +102,156 @@ h2{
     position: absolute;
     left: 29px;
     top: 338px;
+}
+.video{
+    width: 100%;
+    background: url(images/Background.png);
+    height: 261px;
+    position: relative;
+    
+   
+}
+#playbutton{
+    position: absolute;
+    left: 139px;
+    top: 96px;
+ 
+}
+.services{
+    width: 100%;
+    height: 500px;
+    background-color: #f7f7f7;
+}
+#servicehead{
+    width: 100%;
+}
+#servicesFlex{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serviceFlexItem{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flexDesktop{
+    display: none;
+}
+
+.serviceFlexItem img{
+    float: left;
+    padding-right: 25px;
+}
+
+.serviceFlexItem img.smallImage{
+    padding-left: 14px;
+    padding-right: 38px;    
+}
+
+.serviceFlexItem span{
+    font: 700 18px 'Source Sans Pro';
+    color: #acd373;
+    position: absolute;
+}
+
+.serviceFlexItem p{
+    font: 400 16.77px 'Source Sans Pro';
+    line-height: 16.77px;
+    color: #454545;
+    position: absolute;
+    width: 275px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.team{
+    width: 100%;
+    height: 485px;
+    background-color: #f7f7f7;
+}
+
+#teamFlex{
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.teamFlexItem{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.teamFlexItem img{
+    float: none;
+    padding-right: 25px;
+}
+
+
+
+.teamFlexItem span{
+    font: 700 18px 'Source Sans Pro';
+    color: #acd373;
+    position: relative;
+}
+
+.teamFlexItem p{
+    font: 400 16.77px 'Source Sans Pro';
+    line-height: 16.77px;
+    color: #454545;
+    position: relative;
+    width: 275px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.teamFooter{
+    width: 100%;
+    height: 66px;
+    background-color: #9abd67;
+}
+
+
+.works{
+   width: 100%;
+    height: 520px;
+    background-color: #f7f7f7;
+}
+.worksFooter{
+    width: 100%;
+    height: 80px;
+    background-color: #ebebeb;
+}
+.testimonial{
+    width: 100%;
+    height: 562px;
+    background-image:url(images/testbackground.png)
+}
+.blog{
+    width: 100%;
+    height: 665px;
+    background-color: #f7f7f7;
+}
+.map{
+    width: 100%;
+    height: 129px;
+    background-image:url(images/MAPSbackground.png);
+}
+.contact{
+    width: 100%;
+    height: 450px;
+    background-color: #acd373;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #9abd67;
 }

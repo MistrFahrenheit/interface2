@@ -33,8 +33,7 @@
         height: 700px;
     }
     .button{
-        font: italic 18px DroidSerif;
-        text-align: center;
+        font: italic 18px DroidSerif;7
         border-color: #acd373;
         border-style: solid;
         border-width: 1px;
@@ -134,8 +133,7 @@
         background-color: #f7f7f7;
     }
     #servicehead{
-    top: 99px;
-    margin: 0px 150px 100px 80px;
+    
 }
     #ourservices{
         font: 400 30px 'Source Sans Pro';
@@ -238,6 +236,7 @@
 }
 .teamFlexItem{
     width: 270px;
+    overflow: hidden;
 }
 .teamPhotos{
     z-index: 1;
@@ -315,16 +314,91 @@
     text-align: center;
     top: 212px;
 }
-#worksF
-
+#worksFlex2{
+    
+}
+.worksFlex2Item{
+    width: 370px;
+    height: 300px;
+    background-color: #ebebeb;
+}
+.worksFlex2Item > h1;{
+    font: 700 18px 'Source Sans Pro';
+    color: #454545;
+    position: absolute;
+    text-align: center;
+    top: 233px;
+}
+.worksFlex2Item > h2;{
+    font: italic 16px DroidSerif;
+    color: #787878;
+    text-align: center;
+    top: 254px;
+    
+}
 
 .worksFooter{
     height: 119px;
+    background-color: #ebebeb;
 }
+#worksFooterFlex{
+    
+    
+}
+.worksFooterFlexItem{
+    position: relative;
+    top: 41px;
+}
+#worksFooterFlexItem1{
+  left: 128px; 
+}
+#worksFooterFlexItem2{
+    left: 368px;
+}
+#worksFooterFlexItem3{
+    left: 618px;
+}
+#worksFooterFlexItem4{
+    left: 834px
+}
+#worksFooterFlexItem5{
+    left: 1037px;
+}
+#worksFooterFlexItem6
+    left: 1273px;
+}
+
+
 .testimonial{
     height: 550px;
     background-image: url(images/backgroundTestDes.png)
     
+}
+.testimonial > h1{
+    font: 400 30px 'Source Sans Pro';
+    color: #f7f7f7;
+    left: 216px;
+    height: 226px;
+}
+#testext1{
+    font: 400 18px 'Source Sans Pro';
+    color: #f7f7f7;
+    width: 299px;
+    height: 104px;
+    position: relative;
+    left: 216px;
+    top: 190px;
+}
+#testtext2{
+    font: 400 16px DroidSerif;
+    color: #f7f7f7;
+    border-width: 1px;
+    border-color: #f7f7f7;
+    width: 368px;
+    height: 118px;
+    position: relative;
+    left: 615px;
+    top: 120px;
 }
 .blog{
     height: 800px;

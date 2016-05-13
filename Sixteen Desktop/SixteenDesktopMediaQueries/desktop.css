@@ -1,44 +1,47 @@
-@media all and (min-width: 700px){
-    #header{
+@media all and (min-width: 700px) {
+    #header {
         height: 106px;
     }
 
-    #logo{
+    #logo {
         margin-left: 100px;
         margin-top: 27px;
         width: 151px;
         height: 50px;
     }
 
-    .desktopnav{
+    .desktopnav {
         display: inline;
         position: absolute;
         right: 100px;
         top: 46px;
         font: 900 18px 'Source Sans Pro';
     }
-    
-    .desktopnav a{
+
+    .desktopnav a {
         color: #f7f7f7;
         text-decoration: none;
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .mobilenav{
+    .mobilenav {
         display: none;
     }
+
     /* End of Header*/
-    .home{
+    .home {
         height: 700px;
     }
-    .button{
-        font: italic 18px DroidSerif;7
+
+    .button {
+        font: italic 18px DroidSerif;
         border-color: #acd373;
         border-style: solid;
         border-width: 1px;
     }
-    #sixteencreative{
+
+    #sixteencreative {
         font: 900 48px 'Source Sans Pro';
         color: #f7f7f7;
         position: absolute;
@@ -47,33 +50,37 @@
         text-align: center;
         white-space: nowrap;
     }
-    #jakarta{
-    font: italic 24px DroidSerif;
-    color: #f7f7f7;
-    position: absolute;
-    top: 294px;
-    width: 100%;
-    text-align: center;
-    white-space: nowrap;
+
+    #jakarta {
+        font: italic 24px DroidSerif;
+        color: #f7f7f7;
+        position: absolute;
+        top: 294px;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
     }
-    .arrow{
+
+    .arrow {
         margin-left: -24.5px;
         top: 445px;
     }
- 
-    .arrow img{
+
+    .arrow img {
         width: 49px;
     }
-    
-    #siluet{
+
+    #siluet {
         background-image: url(images/siluetdesktop.png);
         height: 216px;
     }
-    .panel1{
+
+    .panel1 {
         height: 575px;
     }
-    #iphone{
-        background-image:url(images/s/iphonedes.png);
+
+    #iphone {
+        background-image: url(images/s/iphonedes.png);
         height: 393px;
         width: 150px;
         position: absolute;
@@ -81,306 +88,339 @@
         right: 328px;
         top: 91px;
     }
-    
-    #whoweare{
+
+    #whoweare {
         font: 400 30px 'Source Sans Pro';
         position: absolute;
         left: 285px;
         top: 137px;
-        color: black;
-        
-        
+        color: #000;
     }
-    #man449{
-        background-image:url(images/man449des.png)
+
+    #man449 {
+        background-image: url(images/man449des.png);
         height: 55px;
         width: 47px;
         position: absolute;
         left: 215px;
         top: 117px;
-    } 
-    #panel1txt{
-    font: 400 13px 'Source Sans Pro';
-    position: absolute;
-    left: 215px;
-    top: 214px;
-    width: 768px;
-    height: 164px;
     }
-    #learnmore{
-    position: absolute;
-    left: 215px;
-    top: 424px;
-    background-color: #f7f7f7;
-    color: #acd373;
-    height: 40px;
+
+    #panel1txt {
+        font: 400 13px 'Source Sans Pro';
+        position: absolute;
+        left: 215px;
+        top: 214px;
+        width: 768px;
+        height: 164px;
     }
-    .video{
+
+    #learnmore {
+        position: absolute;
+        left: 215px;
+        top: 424px;
+        background-color: #f7f7f7;
+        color: #acd373;
+        height: 40px;
+    }
+
+    .video {
         height: 523px;
         background: url(images/BackgroundDes.png);
     }
+}
 
-        } 
-        #playbutton{
-            position: absolute; 
-            top: 194;
-            left: 732px;
-            cursor: pointer;
-        }
-        
-    .services{
-        height: 735px; 
-        background-color: #f7f7f7;
-    }
-    #servicehead{
-    
+#playbutton {
+    position: absolute;
+    top: 194px;
+    left: 732px;
+    cursor: pointer;
 }
-    #ourservices{
-        font: 400 30px 'Source Sans Pro';
-        position: relative;
-        width: 100%;
-        text-align: center;
-        white-space: nowrap;
-    }
-    #servicequote{
-        color: #454545;
-        font: 400 18px DroidSerif;
-        position: relative;
-         white-space: nowrap;
-        
-        width: 100%;
-        text-align: center;
-        white-space: nowrap;
-    }
-    #blacksep{
-        position: relative;
-        left: 738px;
-        width: 125px;
-        white-space: nowrap;
-            
-    }
-    #whoweare{
-        font: 400 30px 'Source Sans Pro';
-        color: #454545;
-        position: absolute;
-        left:285px;
-        top: 137px;
-        
-    }
-    #servicesFlex{
-       
+
+.services {
+    height: 735px;
+    background-color: #f7f7f7;
 }
-    .serviceFlexItem{
-        width: 380px;
-    }
-    
-    .flexDesktop{
-        display: block;
-    }
-    
-    .serviceFlexItem span{
-        font: 700 20px 'Source Sans Pro';
-    }
-    
-    .serviceFlexItem p{
-        font: 400 18px 'Source Sans Pro';
-        line-height: 18px;
-        width: 285px;
-    }
-    #learnmore2{
-        border-color: #acd373;
-        color: #acd373;
-        height: 38px;
-        width: 138px;
-        position: absolute;
-        top: 594px;
-        left: 733px;
-    
-        
-    }
-    .team{
-    height: 735px; 
-    
-    }
-    #teamhead{
-        font: 400 30px 'Source Sans Pro';
-        color: #f7f7f7;
-        position: relative;
-        text-align: center;
-        white-space: nowrap;
-        top: 102px;
-        
-     
-    }
-    #teamquote{
-        font: 400 18px DroidSerif;
-        color: #f7f7f7;
-        position: relative;
-        text-align: center;
-        white-space: nowrap;
-        top: 142px;
-    }
-    #whiteSep{
-        
-    }
-#teamArrows{
+
+#servicehead {
+}
+
+#ourservices {
+    font: 400 30px 'Source Sans Pro';
+    position: relative;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#servicequote {
+    color: #454545;
+    font: 400 18px DroidSerif;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+#blacksep {
+    position: relative;
+    left: 738px;
+    width: 125px;
+    white-space: nowrap;
+}
+
+#whoweare {
+    font: 400 30px 'Source Sans Pro';
+    color: #454545;
+    position: absolute;
+    left: 285px;
+    top: 137px;
+}
+
+#servicesFlex {
+}
+
+.serviceFlexItem {
+    width: 380px;
+}
+
+.flexDesktop {
+    display: block;
+}
+
+.serviceFlexItem span {
+    font: 700 20px 'Source Sans Pro';
+}
+
+.serviceFlexItem p {
+    font: 400 18px 'Source Sans Pro';
+    line-height: 18px;
+    width: 285px;
+}
+
+#learnmore2 {
+    border-color: #acd373;
+    color: #acd373;
+    height: 38px;
+    width: 138px;
+    position: absolute;
+    top: 594px;
+    left: 733px;
+}
+
+.team {
+    height: 735px;
+}
+
+#teamhead {
+    font: 400 30px 'Source Sans Pro';
+    color: #f7f7f7;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    top: 102px;
+}
+
+#teamFlex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#teamquote {
+    font: 400 18px DroidSerif;
+    color: #f7f7f7;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    top: 142px;
+}
+
+#whiteSep {
+}
+
+#teamArrows {
     background: url(images/teamArrowsdes.png);
     width: 1417px;
     height: 49px;
     position: relative;
-    object-position: center;
-    top: 380; 
+    top: 380px;
 }
-#teamFlex{
-   flex-direction: row; 
-}
-.teamFlexItem{
+
+
+
+.teamFlexItem {
     width: 270px;
     overflow: hidden;
 }
-.teamPhotos{
+
+.teamPhotos {
     z-index: 1;
 }
-.teamFlexItemBox{
+
+.teamFlexItemBox {
     background-color: #f7f7f7;
     width: 270px;
     height: 247px;
     border-radius: 5px;
 }
-.teamFlexItemBox > span{
+
+.teamFlexItemBox > span {
     font: 700 20px 'Source Sans Pro';
     color: #acd373;
     position: relative;
     width: 100%;
     text-align: center;
     white-space: nowrap;
-}
-}
-.teamFlexItemBox > p{
-    font: italic 16px DroidSerif;;
-    color:#787878;
+}    
+
+
+.teamFlexItemBox > p {
+    font: italic 16px DroidSerif;
+    color: #787878;
     position: relative;
     width: 100%;
     text-align: center;
     white-space: nowrap;
 }
-.teamFlexItemFooter{
+
+.teamFlexItemFooter {
     background-color: #ebebeb;
     width: 270px;
     height: 70px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.teamFooter{
+
+.teamFooter {
     height: 110px;
     background-color: #9abd67;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
 }
-#teamFooterButton{
+
+#teamFooterButton {
     font: italic 18px DroidSerif;
     color: #f2f2f2;
-    border-color: #f2f2f2
+    border-color: #f2f2f2;
 }
 
-.works{
+.works {
     height: 1170px;
-
 }
 
-#worksFlex1{
-    
+#worksFlex1 {
+    display: flex;
+    flex-flow: row nowrap;
 }
-.worksFlex1Item{
+
+#worksFlex1Item1 {
     width: 570px;
     height: 370px;
     background-color: #ebebeb;
 }
-.worksBigPic{
-    position: absolute;
-    left:0;
-    top: 1;
+
+#worksFlex1Item2 {
+    width: 570px;
+    height: 370px;
+    background-color: #ebebeb;
 }
-.worksFlex1Item > h1{
+
+.worksBigPic {
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.worksFlex1Item > h1 {
     font: 700 18px 'Source Sans Pro';
     color: #454545;
     position: absolute;
     text-align: center;
     top: 305px;
 }
-.worksFlex1Item > h2{
+
+.worksFlex1Item > h2 {
     font: italic 16px DroidSerif;
     color: #787878;
     text-align: center;
     top: 212px;
 }
-#worksFlex2{
-    
+
+#worksFlex2 {
+    display: flex;
+    flex-flow: row nowrap;
 }
-.worksFlex2Item{
+
+.worksFlex2Item {
     width: 370px;
     height: 300px;
     background-color: #ebebeb;
 }
-.worksFlex2Item > h1;{
+
+.worksFlex2Item > h1; {
     font: 700 18px 'Source Sans Pro';
     color: #454545;
     position: absolute;
     text-align: center;
     top: 233px;
 }
-.worksFlex2Item > h2;{
+
+.worksFlex2Item > h2; {
     font: italic 16px DroidSerif;
     color: #787878;
     text-align: center;
     top: 254px;
-    
 }
 
-.worksFooter{
+.worksFooter {
     height: 119px;
     background-color: #ebebeb;
 }
-#worksFooterFlex{
-    
-    
+
+#worksFooterFlex {
+    display: flex;
+    flex-flow: row nowrap;
 }
-.worksFooterFlexItem{
+
+.worksFooterFlexItem {
     position: relative;
     top: 41px;
 }
-#worksFooterFlexItem1{
-  left: 128px; 
+
+#worksFooterFlexItem1 {
+    left: 128px;
 }
-#worksFooterFlexItem2{
+
+#worksFooterFlexItem2 {
     left: 368px;
 }
-#worksFooterFlexItem3{
+
+#worksFooterFlexItem3 {
     left: 618px;
 }
-#worksFooterFlexItem4{
-    left: 834px
+
+#worksFooterFlexItem4 {
+    left: 834px;
 }
-#worksFooterFlexItem5{
+
+#worksFooterFlexItem5 {
     left: 1037px;
-}
-#worksFooterFlexItem6
-    left: 1273px;
-}
+}    
 
 
-.testimonial{
+.testimonial {
     height: 550px;
-    background-image: url(images/backgroundTestDes.png)
-    
+    background-image: url(images/backgroundTestDes.png);
 }
-.testimonial > h1{
+
+.testimonial > h1 {
     font: 400 30px 'Source Sans Pro';
     color: #f7f7f7;
     left: 216px;
     height: 226px;
 }
-#testext1{
+
+#testext1 {
     font: 400 18px 'Source Sans Pro';
     color: #f7f7f7;
     width: 299px;
@@ -389,7 +429,8 @@
     left: 216px;
     top: 190px;
 }
-#testtext2{
+
+#testtext2 {
     font: 400 16px DroidSerif;
     color: #f7f7f7;
     border-width: 1px;
@@ -400,17 +441,79 @@
     left: 615px;
     top: 120px;
 }
-.blog{
+
+#clienttxt1 {
+    width: 176px;
+    height: 45px;
+    position: relative;
+    left: 744px;
+    top: 308px;
+}
+
+#clienttxth2 {
+    width: 176px;
+    height: 45px;
+    position: relative;
+    left: 1142px;
+    top: 308px;
+}
+
+#testbutton {
+    width: 198px;
+    height: 38px;
+    border-color: #acd373;
+    border-style: solid;
+    border-width: 1px;
+    font: italic 18px DroidSerif;
+    color: #acd473;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    left: 215px;
+    top: 340px;
+}
+
+#carousel {
+    width: 55px;
+    height: 15px;
+    position: relative;
+    left: 952px;
+    top: 426px;
+}
+
+.blog {
     height: 800px;
 }
-.map{
+
+.blogdiv {
+    width: 270px;
+    height: 285px;
+    background-color: #ebebeb;
+    color: #454545;
+    font: 600 18px 'Source Sans Pro';
+}
+
+.blogbutton {
+    width: 270px;
+    height: 50px;
+    background-color: #acd373;
+    color: #f7f7f7;
+    font: italic 14px DroidSerif;
+}
+
+.blogfooter {
+    height: 110px;
+}
+
+.map {
     height: 500px;
-    background-image:url(images/backgroundMapDes.png)
+    background-image: url(images/backgroundMapDes.png);
 }
-.contact{
-    height:750px;
-    
+
+.contact {
+    height: 750px;
 }
-.footer{
+
+.footer {
     height: 101px;
 }

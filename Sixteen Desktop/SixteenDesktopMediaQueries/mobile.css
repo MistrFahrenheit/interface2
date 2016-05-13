@@ -172,13 +172,20 @@
 .team{
     width: 100%;
     height: 485px;
-    background-color: #f7f7f7;
+    background-color: #acd373;
+}
+#teamhead{
+    position: relative;
+    text-align: center;
+}
+#teamqote{
+    position: relative;
+    text-align: center
 }
 
 #teamFlex{
     justify-content: center;
-    display: block;
-    flex-wrap: wrap;
+    
 }
 
 .teamFlexItem{
@@ -239,6 +246,18 @@
     width: 100%;
     height: 665px;
     background-color: #f7f7f7;
+}
+.blogbutton {
+    width: 270px;
+    height: 50px;
+    background-color: #acd373;
+    color: #f7f7f7;
+    font: italic 14px DroidSerif;
+}
+.blogfooter{
+    width: 100%;
+    height: 110px;
+    background-color: #acd373;
 }
 .map{
     width: 100%;

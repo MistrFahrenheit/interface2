@@ -185,8 +185,18 @@
 
 #teamFlex{
     justify-content: center;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.serviceFlexItem{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}   
 
 .teamFlexItem{
     flex: 0 auto;
@@ -232,11 +242,43 @@
     height: 520px;
     background-color: #f7f7f7;
 }
+#worksFlex1Item1{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#worksFlex1Item2{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
 .worksFooter{
     width: 100%;
     height: 80px;
     background-color: #ebebeb;
 }
+#worksFooterFlex{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.worksFooterFlexItem{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .testimonial{
     width: 100%;
     height: 562px;
@@ -247,13 +289,42 @@
     height: 665px;
     background-color: #f7f7f7;
 }
+#blogFlex{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogdiv{
+    flex: 0 auto;
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 .blogbutton {
     width: 270px;
     height: 50px;
     background-color: #acd373;
     color: #f7f7f7;
-    font: italic 14px DroidSerif;
+    font: italic 14px; DroidSerif;
+    top: 542px;
 }
+#blogbutton1{
+    left:215px;
+}
+#blogbutton2{
+    left:515px;
+}
+#blogbutton3{
+    left:814px;
+}
+#blogbutton4{
+    left: 1114px;
+    top: 542px;
+}
+
 .blogfooter{
     width: 100%;
     height: 110px;
@@ -274,3 +345,104 @@
     height: 100px;
     background-color: #9abd67;
 }
+ #namefield{
+            border: 1px;
+            width: 301px;
+            height: 28px;
+            position: absolute;
+            top: 160px;
+            left: 30px;
+            background-color: #9abd67;
+            font: italic 20px / 24px DroidSerif;
+            color: #f7f7f7;
+            text-align: left;
+        }
+        #namefield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#namefield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#namefield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#namefield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+        
+        #emailfield{
+            border: 1px;
+            width: 301px;
+            height: 28px;
+            position: absolute;
+            top: 225px;
+            left: 30px;
+            background-color: #9abd67;
+            font: italic 20px / 24px DroidSerif;
+            color: #f7f7f7;
+            text-align: left;
+        }
+        #emailfield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#emailfield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#emailfield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#emailfield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+        
+        #messagefield{
+            border: 1px;
+            width: 302px;
+            height: 84px;
+            position: absolute;
+            top: 300px;
+            left: 30px;
+            background-color: #9abd67;
+            font: italic 20px / 24px DroidSerif;
+            color: #f7f7f7;
+            text-align: left;
+            vertical-align: text-top;
+        }
+#messagefield::-webkit-input-placeholder { /* Chrome */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+
+#messagefield:-moz-placeholder { /* Firefox 18- */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#messagefield::-moz-placeholder {  /* Firefox 19+ */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif; 
+}
+
+#messagefield:-ms-input-placeholder {  /* IE */
+  color: #f7f7f7; 
+  font: italic 20px / 22px DroidSerif;
+}
+        #searrow{
+            position: absolute;
+            top 339px;
+            left: 323px;
+                                                                                                               }

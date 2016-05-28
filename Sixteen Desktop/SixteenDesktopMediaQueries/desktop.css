@@ -138,6 +138,7 @@
 }
 
 .services {
+    position: relative;
     height: 735px;
     background-color: #f7f7f7;
 }
@@ -306,6 +307,7 @@
 
 .works {
     height: 1170px;
+    position: relative;
 }
 
 #worksFlex1 {
@@ -409,6 +411,7 @@
 
 
 .testimonial {
+    position: relative;
     height: 550px;
     background-image: url(images/backgroundTestDes.png);
 }
@@ -482,6 +485,7 @@
 }
 
 .blog {
+    position: relative;
     height: 800px;
 }
 
@@ -506,14 +510,56 @@
 }
 
 .map {
+    position: relative;
     height: 500px;
     background-image: url(images/backgroundMapDes.png);
 }
 
 .contact {
+    position: relative;
     height: 750px;
 }
-
+.contact > h1{
+    font: 400 30px 'Source Sans Pro';
+    color: #f7f7f7;
+    left: 738px;
+    top: 94px;
+}
+.contact > h2{
+    font: 400 18px / 24px 'Source Sans Pro';
+    color: #f7f7f7;
+    left: 516px;
+}
+#cname{
+    top: 181px;
+    
+}
+#cemail{
+    top: 287px;
+}
+#cmessage{
+    top: 391px;
+}
+#sendbutton{
+    width: 1600px;
+    height: 750px;
+    background-color: #9abd67;
+    font: italic 18px DroidSerif;
+    color: #f7f7f7;
+    left: 975px;
+    top: 629;
+}
 .footer {
+    position: relative;
     height: 101px;
+}
+.footer > span{
+    font: 400 18px 'Source Sans Pro';
+    color: #f7f7f7;
+    left:229px;
+    top: 42px;
+}
+#contactbar{
+    left: 1051px;
+    top: 33px;  
 }
